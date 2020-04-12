@@ -8,7 +8,6 @@
         }
     ],
     "require": {
-        "adrianobnu/picpay-php-sdk": "dev-master"
     },
     "autoload": {
         "psr-4": {
