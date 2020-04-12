@@ -1,4 +1,4 @@
-# Laravel eCommerce Picpay Payment
+# Laravel eCommerce Picpay Payment (Em Desenvolvimento)
 
 Módulo criado para adicionar a opção de meio de pagamento Picpay na ferramenta de e-Commerce Bagisto
 
