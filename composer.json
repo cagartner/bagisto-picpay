@@ -1,0 +1,26 @@
+{
+    "name": "cagartner/bagisto-picpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Gartner",
+            "email": "contato@carlosgartner.com.br"
+        }
+    ],
+    "require": {
+        "adrianobnu/picpay-php-sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cagartner\\Picpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cagartner\\Picpay\\Providers\\PicpayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
