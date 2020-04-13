@@ -25,6 +25,8 @@ protected $except = [
 ];
 ```
 
+3- Rodar `php artisan config:clear` para limpar as configurações cacheadas.
+
 ## Configurações
 
 Para configurar seu módulo acesse: Admin > Configurar > Vendas > Métodos de Pagamento > Pagseguro.
