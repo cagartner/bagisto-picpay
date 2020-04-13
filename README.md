@@ -45,4 +45,9 @@ Se gostou do trabalho e quiser me pagar uma cerveja, pode me fazer uma doação 
 
 Tenho também a opção de checkout transparente, esse método é vendido separadamente, caso tenha interesse entre em contato: contato@carlosgartner.com.br
 
+
+## Conheça outros Packages para Bagisto
+
+* [Bagisto - Pagseguro](https://github.com/cagartner/bagisto-pagseguro)
+* [Bagisto - Correios](https://github.com/cagartner/bagisto-correios)
  
