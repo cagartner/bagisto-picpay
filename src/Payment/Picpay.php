@@ -41,6 +41,9 @@ class Picpay extends Payment
      */
     protected $seller_token;
 
+    /**
+     * @var PicpayTransactionRepository
+     */
     protected $transactionRepository;
 
     /**
@@ -48,10 +51,14 @@ class Picpay extends Payment
      */
     protected $url = [];
 
+    /**
+     * @var Client
+     */
     protected $client;
 
     /**
-     * PagSeguro constructor.
+     * Picpay constructor.
+     * @param PicpayTransactionRepository $transactionRepository
      */
     public function __construct(PicpayTransactionRepository $transactionRepository)
     {
