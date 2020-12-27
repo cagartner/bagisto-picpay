@@ -1,6 +1,8 @@
 <?php
 
-const PICPAY_CONTROLER = 'Cagartner\Picpay\Http\Controllers\PicpayController@';
+if ( ! defined('PICPAY_CONTROLER')) {
+    define('PICPAY_CONTROLER', 'Cagartner\Picpay\Http\Controllers\PicpayController@');
+}
 
 Route::group(['middleware' => ['web']], function () {
     Route::prefix('picpay')->group(function () {
