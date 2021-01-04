@@ -98,7 +98,7 @@ class Picpay extends Payment
                 'firstName' => $cart->customer_first_name,
                 'lastName' => $cart->customer_last_name,
                 'document' => $cart->customer_first_name,
-                'document' => '070.136.179-46',
+                'document' => '', // @todo: Add way to get the CPF of buyer
                 'email' => $cart->customer_email,
                 'phone' => $billingAddress->phone,
             ]
